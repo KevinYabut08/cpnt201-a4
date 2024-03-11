@@ -19,6 +19,10 @@ document.querySelector("#app").innerHTML = `
       Click on the Vite logo to learn more
     </p>
   </div>
+  <div>
+  <p id="currentDate"></p>
+  <p id="daysSinceStart"></p>
+</div>
 `;
 
 setupCounter(document.querySelector("#counter"));
