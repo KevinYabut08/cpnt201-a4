@@ -1,14 +1,18 @@
 {
-  "name": "vite-project",
-  "private": true,
-  "version": "0.0.0",
+  "name": "201-a4",
+  "description": "Assignment 4-Vite Projec with a Pull Request",
   "type": "module",
+  "main": "main.js",
+  "author": "Kevin Yabut",
+  "license": "MIT",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^5.1.6"
+    "vite": "^5.1.6",
+    "classnames": "2.5.1",
+    "dayjs": "1.0.2"
   }
 }
