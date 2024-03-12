@@ -11,6 +11,8 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^5.1.6"
+    "vite": "^5.1.6",
+    "classnames": "2.5.1",
+    "dayjs": "1.0.2"
   }
 }

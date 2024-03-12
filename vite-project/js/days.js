@@ -1,12 +1,12 @@
 import dayjs from "dayjs";
 
 function getCurrentDate() {
-  return `Today's date: ${dayjs().format("MMM DD, YYYY")}`;
+  return `Today's date: ${dayjs().format("Oct. 30, 2023")}`;
 }
 
 function daysSinceStart() {
   const startDate = dayjs("2023-09-05");
-  const currentDate = dayjs();
+  const currentDate = dayjs("Oct. 30, 2023");
   return currentDate.diff(startDate, "day");
 }
 
